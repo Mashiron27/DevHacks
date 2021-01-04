@@ -1,0 +1,14 @@
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\bin\Debug\Devhacks.exe.config
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\bin\Debug\Devhacks.exe
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\bin\Debug\Devhacks.pdb
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.csprojAssemblyReference.cache
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.Homepage.resources
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.Properties.Resources.resources
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.csproj.GenerateResource.cache
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.csproj.CoreCompileInputs.cache
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.exe
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.pdb
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.AddAttendance.resources
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.AddNewClass.resources
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.AddNewClassSizes.resources
+C:\Users\vpopa\Desktop\DevHacks\Devhacks\obj\Debug\Devhacks.SeeAtRisk.resources

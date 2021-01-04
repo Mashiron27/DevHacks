@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA29A73D-704D-4AFE-B149-28233C558E5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Devhacks</RootNamespace>
+    <AssemblyName>Devhacks</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAttendance.Designer.cs">
+      <DependentUpon>AddAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewClass.Designer.cs">
+      <DependentUpon>AddNewClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewClassSizes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewClassSizes.Designer.cs">
+      <DependentUpon>AddNewClassSizes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeeAtRisk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeAtRisk.Designer.cs">
+      <DependentUpon>SeeAtRisk.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddAttendance.resx">
+      <DependentUpon>AddAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewClass.resx">
+      <DependentUpon>AddNewClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewClassSizes.resx">
+      <DependentUpon>AddNewClassSizes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeeAtRisk.resx">
+      <DependentUpon>SeeAtRisk.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noSelection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftSelection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightSelection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExistentaOpen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExistentaButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasaNouaButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selectionColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ris_abandon_7_zile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ris_abandon_9_zile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risc_abandon_5_zile.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
